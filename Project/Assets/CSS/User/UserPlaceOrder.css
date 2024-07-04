@@ -1,0 +1,48 @@
+.inp{
+    background: transparent;
+}
+
+.inp:hover{
+    background: transparent;
+}
+
+.inp::after{
+    background: transparent;
+}
+
+.inp:left{
+    background: transparent;
+}
+.inp::backdrop{
+    background: none;
+}.inp:active{
+    background: none;
+}
+
+.inp::-moz-focus-outer{
+    background: none;
+}
+
+.inp:visited{
+    background: transparent;
+}
+
+.inp:focus{
+    background: none;
+}
+
+.inp:checked{
+    background: #548302;
+    border: none;
+    outline: none;
+}
+
+.inp:checked::shadow{
+    background: none;
+}
+.inp:checked:hover{
+    border: none;
+}.inp:checked:active{
+    border: none;
+    background: none;
+}
